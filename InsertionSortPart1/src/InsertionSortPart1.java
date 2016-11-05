@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class InsertionSortPart1 {
+  private final static Scanner scanner = new Scanner(System.in);
+    
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    int arraySize = scan.nextInt();
+    int[] numberArray = new int[arraySize];
+    for(int i = 0 ; i<arraySize ; i++){
+    	numberArray[i] = scan.nextInt();
+    }
+    for(int i = 0 ; i<arraySize ; i++){
+    	System.out.println(numberArray[i]);
+    }
+  }
+}
+
